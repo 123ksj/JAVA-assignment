@@ -1,9 +1,8 @@
 package assignment;
 
 import java.util.*;
-import java.io.*;
 
-// 도서와 이용자 관리하는 Library 클래스
+// 도서와 사용자 관리하는 Library 클래스
 // 6. 참조 타입 (배열)
 // 7. 컬렉션 프레임워크 (Map)
 public class Library {
@@ -27,7 +26,7 @@ public class Library {
 		}
 	}
 	
-	// 이용자 추가 메서드
+	// 사용자 추가 메서드
 	public void addUser(String userName) {
 		users.put(userName, new User(userName));
 	}
@@ -68,7 +67,6 @@ public class Library {
 						return true;
 					}
 				}
-				System.out.println("해당 제목의 책이 없습니다.");
 				return false;
 			} else {
 				System.out.println(userName + "님은 이미 최대 대출 가능 수에 도달하셨습니다.");

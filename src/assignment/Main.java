@@ -14,7 +14,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		// 파일로부터 도서 정보 읽어오기
-		// 학문/참고자료, 학문분야/참고자료유형, 제목, 작가
+		// 도서 종류, 도서 유형, 제목, 작가
 		try(BufferedReader br = new BufferedReader(new FileReader("/Users/lilly/eclipse-workspace/JAVA assignment/src/Books.txt"))) {
 			String line;
 			while((line = br.readLine()) != null) {
@@ -51,6 +51,7 @@ public class Main {
 			e.printStackTrace();
 		}
 		
+		
 		// 사용자 입력받기
 		User user = null;
 		String userName;
@@ -77,8 +78,6 @@ public class Main {
 				}
 			}
 		} while(user == null);
-		
-		
 		
 		while(true) {
 			System.out.println("-------------------------");
