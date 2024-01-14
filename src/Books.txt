@@ -1,0 +1,8 @@
+Book, 소설, 구의 증명, 최진영
+AcademicBook, 물리학, The Physics of Everyday Life, John Doe
+Book, 소설, 위대한 개츠비, Scott Fitzgerald
+ReferenceBook, 일본어, 독학 일본어 첫걸음, 황미진
+Book, 소설, 해리포터, J.K.롤링
+ReferenceBook, 영어, 토익기출VOCA, ETS
+Book, 소설, 세이노의 가르침, 세이노
+ReferenceBook, 영어, 영어사전, Robert Smith
